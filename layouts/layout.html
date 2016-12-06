@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+</head>
+<body>
+  <h1>{{ title }}</h1>
+
+  {{{ contents }}}
+
+  {{#each posts}}
+    <a href="/{{{ postLink path }}}">{{{ postTitle path }}}</a> <br>
+    
+  {{/each}}
+
+
+  <footer>
+    <p>Generated with love</p>
+  </footer>
+
+</body>
+</html>

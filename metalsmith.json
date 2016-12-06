@@ -1,0 +1,7 @@
+{
+  "plugins": {
+    "metalsmith-register-helpers": {
+      "directory": "/Users/admin/Desktop/blog/helpers"
+    }
+  }
+}
